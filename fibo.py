@@ -10,11 +10,13 @@ def fibonnacy(num_esperado):
 
 # Clase que hara la comprobación
 class test(unittest.TestCase):
+
     # Función requerida para el unitest
     def test_fibonnacy(self):
+        
         # Preguntas al usuario
-        num_esperado = int(input("numero esperado: "))
-        posicion_esperada = int(input("posicion esperada: "))
+        num_esperado = int(input("Un numero fibonacy: "))
+        posicion_esperada = int(input("posicion esperada con respecto al numero dado: "))
         
         # Ejecución comprobación
         self.assertEqual(fibonnacy(num_esperado)[posicion_esperada-1],num_esperado)
