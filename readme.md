@@ -2,6 +2,7 @@ Prueba de Fibonacci
 ===================
 
 Este es un script en Python que genera una lista de numeros fibonnacy y comprueba el que tu le das con la posición que tu le indicas.
+
 Recurre a la libreria unittest para realizar la comproabación a traves de una igualdad entre el numero que tu le das y la posición indicada.
     
 
